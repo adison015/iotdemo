@@ -22,9 +22,11 @@
   </body>
 
   <script>
-      $("bts").click(function(){
-   $(()=>{
+      function btnClick_click(){
         alert("ok");
-   }) });
+      }
+   $(()=>{
+    $("#bts").click(btnClick_click);  
+   });
   </script>
 </html>
